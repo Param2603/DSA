@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter Number: "<<endl;
     cin>>n;
 
-    if(n<=1){
+    if(n<=1){                         
         cout<<n<<" is not prime";
     }
     else {

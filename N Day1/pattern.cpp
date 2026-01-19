@@ -20,6 +20,4 @@ int main(){
     }
 
     cout<<"Pattern 3"<<endl;
-
-    
 }
