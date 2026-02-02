@@ -8,7 +8,20 @@ using namespace std;
 
 class Encap {
     private:          // access not given if getter and setter is not there
-         
+        string name;
 
-    public:           // default is also public it access
+    public:         // default is also public it access
+        string getname(){
+            return name;
+        } 
+        
+        void setname(string newName){
+            name = newName;
+        }
 };
+
+int main(){
+    Encap obj;
+    obj.setname("Param");
+    cout<<obj.getname()<<endl;
+}
